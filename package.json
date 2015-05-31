@@ -1,0 +1,34 @@
+{
+  "name": "object-filler",
+  "version": "0.0.1",
+  "description": "asynchronously resolve object properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "cover": "istanbul cover tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FilWisher/object-filler.git"
+  },
+  "keywords": [
+    "resolve",
+    "object",
+    "properties",
+    "populate",
+    "asynchronous",
+    "async",
+    "fill",
+    "filler"
+  ],
+  "author": "William Fisher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FilWisher/object-filler/issues"
+  },
+  "homepage": "https://github.com/FilWisher/object-filler",
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "tape": "^4.0.0"
+  }
+}
