@@ -6,7 +6,7 @@ e.g
 
 ```js
 
-var populate = require("fillmein");
+var fill = require("object-filler");
 
 var populateMe = {
     payments: function (cb) {
@@ -32,7 +32,7 @@ var populateMe = {
     }
 };
 
-populate(populateMe, function (err, populatedObject) {
+fill(populateMe, function (err, populatedObject) {
 
     /**
      *  populatedObject = {
