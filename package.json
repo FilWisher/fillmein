@@ -4,8 +4,8 @@
   "description": "asynchronously resolve object properties",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js",
-    "cover": "istanbul cover tape test.js"
+    "test": "tape test/test.js",
+    "cover": "istanbul cover tape test/test.js"
   },
   "repository": {
     "type": "git",

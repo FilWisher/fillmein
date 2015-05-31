@@ -2,7 +2,7 @@
 
 
 var test = require("tape");
-var fill = require("./");
+var fill = require("../");
 
 
 test("if not object, stop with warning", function (t) {
